@@ -11,11 +11,9 @@ export default function Home() {
     <main className="overflow-hidden flex min-h-screen flex-col bg-purple-50">
       <Link />
 
-      <h1>I'm about to deploy a project with vercel</h1>
-
       {/* hero component */}
       <Hero />
-
+      
       {/* features component */}
       <Feature />
 
