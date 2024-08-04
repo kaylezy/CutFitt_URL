@@ -72,6 +72,8 @@ export default function Home() {
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
             Learn about Next.js in an interactive course with&nbsp;quizzes!
           </p>
+          <p>Learning how to learn by </p>
+          <p>Learning how to learn by </p>
         </a>
 
         <a
