@@ -12,7 +12,7 @@ export default function Home() {
     //main section of the page
     <main className="overflow-hidden flex min-h-screen flex-col bg-purple-50">
       <Link />
-      <h1>Why is my project not rendering in vercel</h1>
+
       {/* hero component */}
       <Hero />
 
