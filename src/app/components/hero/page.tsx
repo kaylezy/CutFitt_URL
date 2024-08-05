@@ -6,7 +6,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <>
-      <div className="relative bg-purple-50 text-gray-700 p-4 sm:p-20 ">
+      <div className="relative bg-purple-50 text-gray-700 p-4 sm:p-20 mt-24">
         <div className="absolute inset-0">
           {/* <Image
           src="/error.png"
@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
         <div className="relative z-10 flex flex-col justify-center items-center text-center">
           <h1 className="text-2xl md:text-6xl font-bold mb-4">
-            CutFit-URL Your One-Stop Solution for your URL Shortening
+            CutFitt-URL Your One-Stop Solution for your URL Shortening
           </h1>
           <div>
             <Image

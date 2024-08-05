@@ -1,9 +1,7 @@
-"use client";
-
 import Hero from "./components/hero/page";
 import Feature from "./components/features/page";
 import Footer from "./components/footer/page";
-import Link from "./components/link";
+import Navbar from "./components/navbar/page";
 
 import FAQ from "./pages/faq";
 
@@ -11,7 +9,7 @@ export default function Home() {
   return (
     //main section of the page
     <main className="overflow-hidden flex min-h-screen flex-col bg-purple-50">
-      <Link />
+      <Navbar />
 
       {/* hero component */}
       <Hero />

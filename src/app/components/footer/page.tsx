@@ -14,19 +14,19 @@ import Link from "next/link";
 const FooterLinks = [
   {
     title: "Home",
-    link: "/#",
+    link: "/",
   },
   {
     title: "About Us",
-    link: "/#AboutUs",
+    link: "/#about",
   },
   {
     title: "Feature",
-    link: "/#Feature",
+    link: "/#feature",
   },
   {
     title: "Contact Us",
-    link: "/#ContactUs",
+    link: "/contact",
   },
 ];
 
@@ -41,14 +41,14 @@ const Footer = () => {
               href="#"
               className="text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl"
             >
-              CutFit-URL
+              CutFitt-URL
             </a>
             <p className="text-gray-600 dark:text-gray-600 lg:pr-24 pt-3">
-              Cutfit-URL is a platform where you Shorten your URLs to make them
+              Cutfitt-URL is a platform where you Shorten your URLs to make them
               easier to share.
             </p>
             <p className="text-gray-500 mt-4">Made with ❤️ by kngkay</p>
-            <p className="text-gray-500 mt-4">&copy; 2024 CutFit-URL</p>
+            <p className="text-gray-500 mt-4">&copy; 2024 CutFitt-URL</p>
           </div>
           {/*Footer links*/}
           <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10">

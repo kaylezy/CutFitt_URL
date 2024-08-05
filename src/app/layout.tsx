@@ -8,7 +8,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CutFit URL Shortener",
+  title: "CutFitt URL Shortener",
   description: "Shorten your URLs to make them easier to share",
 };
 

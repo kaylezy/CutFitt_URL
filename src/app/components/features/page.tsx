@@ -6,7 +6,6 @@ import { LuPenSquare } from "react-icons/lu";
 import { BsQrCode } from "react-icons/bs";
 import { DiGoogleAnalytics } from "react-icons/di";
 import UserAuth from "../../pages/userAuth/page";
-// import MarkdownEditor from "../MarkDownEditor";
 
 const Feature = () => {
   return (
@@ -17,7 +16,7 @@ const Feature = () => {
       >
         <div className="relative z-10 flex flex-col justify-center items-center text-center px-4">
           <h2 className="text-2xl md:text-4xl font-bold mb-10">
-            Why choose CutFit-URL
+            Why choose CutFitt-URL
           </h2>
           <div className="sm:flex ">
             <div className=" p-4 rounded  sm:mr-4 sm:flex-col">
@@ -30,17 +29,14 @@ const Feature = () => {
                   height={50}
                 />
               </div>
-              <h2 className="text-xl font-bold mb-2 sm:mt-4">CutFit-URL</h2>
+              <h2 className="text-xl font-bold mb-2 sm:mt-4">CutFitt-URL</h2>
               <p className="text-gray-600 text-justify">
-                CutFit-URL is the hub of everything that has to do with your
+                CutFitt-URL is the hub of everything that has to do with your
                 link management. We shorten your URLs, allow you creating custom
                 ones for your personal, business, event usage. Our swift QR code
                 creation, management and usage tracking with advance analytics
                 for all of these is second to none.
               </p>
-              <div className="bg-purple-200 rounded-lg text-gray-700">
-                {/* <MarkdownEditor /> */}
-              </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-4">
@@ -50,7 +46,7 @@ const Feature = () => {
                 </div>
                 <h2 className="text-xl font-bold mb-2">URL Shortening</h2>
                 <p className="text-gray-600 text-justify">
-                  CutFit-URL allows you to shorten URLs of your business,
+                  CutFitt-URL allows you to shorten URLs of your business,
                   events. Shorten your URL at scale, URL redirects.
                 </p>
               </div>
@@ -60,7 +56,7 @@ const Feature = () => {
                 </div>
                 <h2 className="text-xl font-bold mb-2">Custom URL&apos;s</h2>
                 <p className="text-gray-600 text-justify">
-                  With CutFit-URL, you can create custom URLs, with the length
+                  With CutFitt-URL, you can create custom URLs, with the length
                   you want! A solution for socials and businesses.
                 </p>
               </div>
