@@ -58,7 +58,7 @@ const Feature = () => {
                 <div className="flex rounded-full w-14 h-14 justify-center bg-gray-200">
                   <LuPenSquare className="w-8 h-8 m-auto p-auto" />{" "}
                 </div>
-                <h2 className="text-xl font-bold mb-2">Custom URL's</h2>
+                <h2 className="text-xl font-bold mb-2">Custom URL&apos;s</h2>
                 <p className="text-gray-600 text-justify">
                   With CutFit-URL, you can create custom URLs, with the length
                   you want! A solution for socials and businesses.

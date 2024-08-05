@@ -268,8 +268,8 @@ export default function Signup() {
             <div className="flex flex-col justify-center text-center text-xs font-regular text-gray-300 my-2">
               <p>By signing in with your account, you agree to</p>
               <p>
-                Cutfit-URL's Terms of Service, Privacy Policy and Acceptable Use
-                Policy.
+                Cutfit-URL&apos;s Terms of Service, Privacy Policy and
+                Acceptable Use Policy.
               </p>
             </div>
           </form>

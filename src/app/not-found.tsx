@@ -47,7 +47,8 @@ const NotFoundPage = () => {
         />
       </div>
       <p className="text-lg mb-6">
-        Oops! The page you're looking for doesn't exist.
+        Oops! 404
+        {/* The page you're looking for do not exist. */}
       </p>
       <Link
         href="/"

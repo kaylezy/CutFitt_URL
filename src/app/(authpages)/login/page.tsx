@@ -57,7 +57,7 @@ export default function Signin() {
     }
   };
 
-  const handleSingin = async (e: React.FormEvent) => {
+  const handleSignin = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
 
@@ -105,7 +105,7 @@ export default function Signin() {
       <div className="space-y-6 h-screen w-screen text-black flex flex-col justify-center items-center transition-all p-2 bg-purple-50">
         <div className="max-w-md flex flex-col shadow-lg border rounded-xl w-full bg-gray">
           <form
-            onSubmit={handleSingin}
+            onSubmit={handleSignin}
             className="flex flex-col border-b rounded-xl w-full  p-4 md:p-8 lg:p-10 py-10 bg-purple-500"
           >
             <h1 className="text-lg font-semibold text-center text-gray-300">
@@ -182,7 +182,7 @@ export default function Signin() {
             </button>
 
             <div className="flex flex-row justify-center text-xs font-regular text-gray-300 my-3 mb-1">
-              Don't have and account?{" "}
+              Don&apos;t have and account?{" "}
               <Link
                 className="text-purple-200 ml-1 cursor-pointer font-medium"
                 href={"/register"}
