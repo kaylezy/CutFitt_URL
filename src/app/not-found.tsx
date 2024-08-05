@@ -35,7 +35,7 @@ const NotFoundPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-purple-50 p-4 text-gray-700">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-purple-50 p-4 text-gray-700 pt-24">
       <h1 className="text-3xl sm:text-5xl font-bold mb-4">Page Not Found</h1>
       <div className="w-64 h-64 mb-6">
         <Image

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-// import Navbar from "./components/navbar/page";
+import Navbar from "./components/navbar/page";
 // import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 // import NotFoundPage from "./not-found";
 
@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       {/* <ErrorBoundary fallback={<NotFoundPage />}> */}
       <body className={inter.className}>
-        {/* <Navbar /> */}
+        <Navbar />
         {children}
       </body>
       {/* </ErrorBoundary> */}

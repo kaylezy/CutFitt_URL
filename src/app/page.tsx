@@ -9,7 +9,7 @@ export default function Home() {
   return (
     //main section of the page
     <main className="overflow-hidden flex min-h-screen flex-col bg-purple-50">
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* hero component */}
       <Hero />

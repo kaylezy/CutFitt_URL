@@ -136,7 +136,7 @@ export default function Signup() {
 
   return (
     <>
-      <div className="space-y-6 h-screen w-screen text-black flex flex-col justify-center items-center transition-all p-2 bg-purple-50">
+      <div className="space-y-6 min-h-screen w-screen text-black flex flex-col justify-center items-center transition-all p-2 bg-purple-50  pt-28">
         <div className="max-w-md flex flex-col shadow-lg border rounded-xl w-full bg-gray">
           <form
             onSubmit={handleSignup}
