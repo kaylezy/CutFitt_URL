@@ -7,13 +7,13 @@ import FAQ from "./pages/faq";
 
 export default function Home() {
   return (
-    //main sectio of the page
+    //main section of the page
     <main className="overflow-hidden flex min-h-screen flex-col bg-purple-50">
       <Link />
 
       {/* hero component */}
       <Hero />
-      
+
       {/* features component */}
       <Feature />
 
