@@ -6,7 +6,7 @@ import { LuPenSquare } from "react-icons/lu";
 import { BsQrCode } from "react-icons/bs";
 import { DiGoogleAnalytics } from "react-icons/di";
 import UserAuth from "../../pages/userAuth/page";
-import MarkdownEditor from "../MarkDownEditor";
+// import MarkdownEditor from "../MarkDownEditor";
 
 const Feature = () => {
   return (
@@ -39,7 +39,7 @@ const Feature = () => {
                 for all of these is second to none.
               </p>
               <div className="bg-purple-200 rounded-lg text-gray-700">
-                <MarkdownEditor />
+                {/* <MarkdownEditor /> */}
               </div>
             </div>
 
