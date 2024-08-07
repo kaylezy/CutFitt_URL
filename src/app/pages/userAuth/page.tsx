@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-// import Auth from "../../components/Auth";
-import Modal from "../../components/modal/page";
+// import Modal from "../../components/modal/page";
 import { auth } from "../../firebase/firebase";
 import { shortenUrl } from "../../utils/shorten";
 import { generateQRCode } from "../../utils/generateQRCode";
@@ -67,11 +66,11 @@ const Home = () => {
           {/* <img src={qrCode} alt="QR Code" /> */}
         </div>
       )}
-      <Modal
+      {/* <Modal
         isOpen={modalOpen}
         onRequestClose={() => setModalOpen(false)}
         message="You must be logged in to generate a custom URL and QR code."
-      />
+      /> */}
     </div>
   );
 };
