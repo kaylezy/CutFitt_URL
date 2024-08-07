@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 // import Auth from "../../components/Auth";
-import Modal from "../../components/Modal";
+import Modal from "../../components/modal/page";
 import { auth } from "../../firebase/firebase";
-import { shortenUrl } from "../../utils/shorteningUrl";
+import { shortenUrl } from "../../utils/shorten";
 import { generateQRCode } from "../../utils/generateQRCode";
 import Image from "next/image";
 

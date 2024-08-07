@@ -4,11 +4,11 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { onAuthStateChanged, signOut } from "firebase/auth";
-import { auth, firestore } from "../firebase/firebase";
+import { auth, firestore } from "../../firebase/firebase";
 import type { User } from "firebase/auth";
 import { doc, getDoc } from "firebase/firestore";
-import UrlShortener from "../components/UrlShortener";
-import Analytics from "../pages/analytics";
+import UrlShortener from "../UrlShortener/page";
+import Link from "next/link";
 
 export default function Dashboard() {
   const [user, setUser] = useState<User | null>(null);
@@ -53,10 +53,16 @@ export default function Dashboard() {
 
   return (
     <>
-      <div className="bg-purple-50 min-h-screen text-gray-700 px-4 py-4 sm:px-20 sm:py-20">
+      <div className="bg-purple-50 min-h-screen text-gray-700 px-4 py-4 sm:px-20 sm:py-24 pt-24">
         <h1 className="font-bold text-2xl mb-10">Dashboard</h1>
         <main className="font-bold text-2xl mb-10">
-          <h2>Welcome onboard, {userName}</h2>
+          <h2 className="mb-6">Welcome onboard, {userName}</h2>
+          <Link
+            href={"/pages/analytics"}
+            className=" hover:bg-purple-700 hover:text-gray-200 hover:rounded-lg hover:p-2"
+          >
+            Analytics
+          </Link>
         </main>
         <button
           className="bg-purple-800 text-white rounded-lg p-2 text-sm shadow-md hover:bg-gradient-to-b from-purple-300 to-purple-900 hover:shadow-lg transition-all disabled:to-purple-400 disabled:from-purple-400"
@@ -64,8 +70,8 @@ export default function Dashboard() {
         >
           Sign out
         </button>
+
         <UrlShortener />
-        <Analytics />
       </div>
     </>
   );

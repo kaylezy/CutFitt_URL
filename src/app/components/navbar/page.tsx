@@ -32,7 +32,7 @@ const Navbar = () => {
                   About
                 </Link>
                 <Link
-                  href="/contact"
+                  href="/components/contact"
                   className="inline-flex items-center px-2 pt-1 border-b-2 text-md font-bold border-transparent text-purple-700 hover:text-purple-500 hover:border-purple-500"
                 >
                   Contact

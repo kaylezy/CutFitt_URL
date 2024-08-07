@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 // import { auth } from "../firebase/firebase";
-import { sendMessage } from "../utils/contact";
+import { sendMessage } from "../../utils/contact";
 
 const Contact = () => {
   const [name, setName] = useState("");

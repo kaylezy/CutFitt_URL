@@ -87,7 +87,7 @@ export default function Signin() {
             email: user.email,
           });
         }
-        router.push("/dashboard");
+        router.push("/components/dashboard");
       } else {
         setError("Please verify your email address to continue");
       }
