@@ -14,6 +14,10 @@ const Home = () => {
   const [qrCode, setQRCode] = useState("");
   const [modalOpen, setModalOpen] = useState(false);
 
+  const handleCloseModal = () => {
+    setModalOpen(false);
+  };
+
   const handleShorten = async () => {
     if (!auth.currentUser) {
       setModalOpen(true);
@@ -66,11 +70,7 @@ const Home = () => {
           {/* <img src={qrCode} alt="QR Code" /> */}
         </div>
       )}
-      {/* <Modal
-        isOpen={modalOpen}
-        onRequestClose={() => setModalOpen(false)}
-        message="You must be logged in to generate a custom URL and QR code."
-      /> */}
+      {/* <Modal isOpen={modalOpen} onClose={handleCloseModal} /> */}
     </div>
   );
 };

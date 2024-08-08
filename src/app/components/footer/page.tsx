@@ -39,7 +39,7 @@ const Footer = () => {
           <div className="py-8 px-4">
             <a
               href="#"
-              className="text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl"
+              className="text-purple-700 font-bold tracking-widest text-2xl uppercase sm:text-3xl"
             >
               CutFitt-URL
             </a>

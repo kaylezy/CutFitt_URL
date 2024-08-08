@@ -11,7 +11,7 @@ import {
   PiMagicWandLight,
   PiQrCodeFill,
 } from "react-icons/pi";
-// import Dropdown from "./Dropdown";
+// import Dropdown from "../dropdown/page";
 import {
   FaTwitter,
   FaLinkedin,
@@ -215,7 +215,7 @@ const UrlShortener = () => {
         <form onSubmit={handleSubmit} className="flex flex-col gap-2">
           <label
             htmlFor="originalUrl"
-            className="flex items-center gap-2 text-xl font-xl font-normal"
+            className="flex items-center gap-2 text-xl font-xl font-bold"
           >
             {isShortened ? (
               <FiLink2 className="text-2xl" />
@@ -238,7 +238,7 @@ const UrlShortener = () => {
           />
           <label
             htmlFor="customAlias"
-            className="flex items-center gap-2 text-xl font-normal"
+            className="flex items-center gap-2 text-xl font-bold"
           >
             {isShortened ? (
               <PiMagicWandLight className="text-2xl" />
