@@ -294,7 +294,7 @@ const UrlShortener = () => {
               <button
                 type="button"
                 onClick={() => setShowQrCode(!showQrCode)}
-                className="bg-soft-orange text-purple-900 font-semibold py-2 px-4 rounded-xl inline-flex items-center gap-2"
+                className=" text-purple-900 font-bold text-2xl py-2 px-4 rounded-xl inline-flex items-center gap-2"
               >
                 <PiQrCodeFill />
                 <p className="hidden md:block">QR</p>
@@ -312,7 +312,7 @@ const UrlShortener = () => {
               <button
                 type="button"
                 onClick={handleCopy}
-                className="bg-deep-teal text-purple-900 font-semibold py-2 px-4 rounded-xl inline-flex items-center gap-2"
+                className=" text-purple-900 font-bold text-2xl py-2 px-4 rounded-xl inline-flex items-center gap-2"
               >
                 <IoIosCopy />
                 <p className="hidden md:block">Copy</p>
@@ -356,7 +356,7 @@ const UrlShortener = () => {
                 Scan this QR code to visit the shortened URL site
               </p>
               <div className="flex flex-col items-center gap-2 mt-2">
-                <div className="flex items-center gap-2">
+                <div className="flex flex-col items-center gap-2">
                   <select
                     value={downloadFormat}
                     onChange={(e) => setDownloadFormat(e.target.value)}
@@ -370,7 +370,7 @@ const UrlShortener = () => {
                   </select>
                   <button
                     onClick={handleDownloadQRCode}
-                    className="bg-purple-950 text-white font-semibold py-2 px-4 rounded"
+                    className="bg-purple-950 text-white flex flex-col items-center font-semibold py-2 px-4 rounded "
                   >
                     <FaDownload />
                     Download QR Code
