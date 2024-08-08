@@ -370,7 +370,7 @@ const UrlShortener = () => {
                   </select>
                   <button
                     onClick={handleDownloadQRCode}
-                    className="bg-purple-950 text-white flex flex-col items-center font-semibold py-2 px-4 rounded "
+                    className="bg-purple-800 text-white flex flex-col items-center font-semibold py-2 px-4 rounded "
                   >
                     <FaDownload />
                     Download QR Code
@@ -378,7 +378,7 @@ const UrlShortener = () => {
                 </div>
                 <button
                   onClick={handleShareQRCodeAsSVG}
-                  className="bg-purple-950 text-white font-semibold py-2 px-4 rounded"
+                  className="bg-purple-800 text-white font-semibold py-2 px-4 rounded"
                 >
                   Share QR Code
                 </button>

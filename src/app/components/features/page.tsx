@@ -41,8 +41,8 @@ const Feature = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-4">
               <div className="flex flex-col items-center bg-white p-4 rounded shadow">
-                <div className="flex rounded-full w-14 h-14 justify-center bg-gray-200">
-                  <PiBracketsCurlyDuotone className="w-8 h-8 m-auto p-auto" />
+                <div className="flex rounded-full w-14 h-14 justify-center bg-purple-200">
+                  <PiBracketsCurlyDuotone className="w-8 h-8 m-auto p-auto text-purple-800" />
                 </div>
                 <h2 className="text-xl font-bold mb-2">URL Shortening</h2>
                 <p className="text-gray-600 text-justify">
@@ -51,8 +51,8 @@ const Feature = () => {
                 </p>
               </div>
               <div className="flex flex-col items-center bg-white p-4 rounded shadow">
-                <div className="flex rounded-full w-14 h-14 justify-center bg-gray-200">
-                  <LuPenSquare className="w-8 h-8 m-auto p-auto" />{" "}
+                <div className="flex rounded-full w-14 h-14 justify-center bg-purple-200">
+                  <LuPenSquare className="w-8 h-8 m-auto p-auto text-purple-800" />{" "}
                 </div>
                 <h2 className="text-xl font-bold mb-2">Custom URL&apos;s</h2>
                 <p className="text-gray-600 text-justify">
