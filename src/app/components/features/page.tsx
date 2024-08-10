@@ -41,8 +41,8 @@ const Feature = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-4">
               <div className="flex flex-col items-center bg-white p-4 rounded shadow">
-                <div className="flex rounded-full w-14 h-14 justify-center bg-purple-200">
-                  <PiBracketsCurlyDuotone className="w-8 h-8 m-auto p-auto text-purple-800" />
+                <div className="flex rounded-full w-14 h-14 justify-center bg-gray-200">
+                  <PiBracketsCurlyDuotone className="w-8 h-8 m-auto p-auto " />
                 </div>
                 <h2 className="text-xl font-bold mb-2">URL Shortening</h2>
                 <p className="text-gray-600 text-justify">
@@ -51,8 +51,8 @@ const Feature = () => {
                 </p>
               </div>
               <div className="flex flex-col items-center bg-white p-4 rounded shadow">
-                <div className="flex rounded-full w-14 h-14 justify-center bg-purple-200">
-                  <LuPenSquare className="w-8 h-8 m-auto p-auto text-purple-800" />{" "}
+                <div className="flex rounded-full w-14 h-14 justify-center bg-gray-200">
+                  <LuPenSquare className="w-8 h-8 m-auto p-auto" />{" "}
                 </div>
                 <h2 className="text-xl font-bold mb-2">Custom URL&apos;s</h2>
                 <p className="text-gray-600 text-justify">
@@ -82,6 +82,45 @@ const Feature = () => {
                 </p>
               </div>
             </div>
+          </div>
+          <div>
+            <section className="sm:p-10 mt-6 min-w-full">
+              <div className="bg-purple-100 min-w-full rounded-lg">
+                <div className="flex flex-col md:flex-row justify-between w-[90%]== mx-auto p-2 pt-14 pb-16">
+                  <div className="font-bold text-left sm:text-[40px] text-4xl leading-[48px] mb-8 md:mb-0">
+                    One Stop.
+                    <br /> Four{" "}
+                    <span className="text-purple-700">Possibilities</span>
+                  </div>
+                  <div className="grid grid-cols-2 gap-4 md:flex w-full md:w-[60%]">
+                    <div className=" first:ml-0 ml-0 md:ml-[72px]">
+                      <div className="text-[32px] font-semibold">5M</div>
+                      <div className="font-medium max-w-[14ch]">
+                        Active Users
+                      </div>
+                    </div>
+                    <div className=" first:ml-0 ml-0 md:ml-[72px]">
+                      <div className="text-[32px] font-semibold">50M</div>
+                      <div className="font-medium max-w-[14ch]">
+                        Links &amp; QR codes created
+                      </div>
+                    </div>
+                    <div className=" first:ml-0 ml-0 md:ml-[72px]">
+                      <div className="text-[32px] font-semibold">10M</div>
+                      <div className="font-medium max-w-[14ch]">
+                        Clicked &amp; Scanned connections
+                      </div>
+                    </div>
+                    <div className="first:ml-0 ml-0 md:ml-[72px]">
+                      <div className="text-[32px] font-semibold">500K</div>
+                      <div className="font-medium max-w-[14ch]">
+                        App Integrations
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
           <div className="w-full bg-purple-200 p-6 mt-10 rounded-lg">
             <UserAuth />

@@ -136,8 +136,8 @@ export default function Signup() {
 
   return (
     <>
-      <div className="space-y-6 min-h-screen w-screen text-black flex flex-col justify-center items-center transition-all p-2 bg-purple-50  pt-28">
-        <div className="max-w-md flex flex-col shadow-lg border rounded-xl w-full bg-gray">
+      <div className="space-y-6 min-h-screen w-screen text-black flex justify-center items-center transition-all p-2 bg-purple-50">
+        <div className="max-w-md flex flex-col items-center justify-center mt-28 shadow-lg border rounded-xl w-full">
           <form
             onSubmit={handleSignup}
             className="flex flex-col border-b rounded-xl w-full  p-4 md:p-8 lg:p-10 py-10 bg-purple-500"
@@ -273,6 +273,10 @@ export default function Signup() {
               </p>
             </div>
           </form>
+        </div>
+        <div className="hidden relative lg:flex h-full w-1/4 items-center justify-center ">
+          <div className="w-60 h-60 bg-gradient-to-tr from-pink-400 to-purple-500 rounded-full animate-bounce" />
+          <div className="w-full h-1/2 absolute bottom-0 bg-white/10 backdrop-blur-lg" />
         </div>
       </div>
     </>

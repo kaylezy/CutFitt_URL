@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-// import Modal from "../../components/modal/page";
+import Modal from "../modal/modal";
 import { auth } from "../../firebase/firebase";
 import { shortenUrl } from "../../utils/shorten";
 import { generateQRCode } from "../../utils/generateQRCode";
@@ -57,7 +57,7 @@ const Home = () => {
       >
         Shorten URL
       </button>
-      {/* <Auth /> */}
+
       {shortUrl && (
         <div>
           <p>
@@ -67,10 +67,9 @@ const Home = () => {
             </a>
           </p>
           <Image src={qrCode} width={100} height={100} alt="QR Code" />
-          {/* <img src={qrCode} alt="QR Code" /> */}
         </div>
       )}
-      {/* <Modal isOpen={modalOpen} onClose={handleCloseModal} /> */}
+      <Modal isOpen={modalOpen} onClose={handleCloseModal} />
     </div>
   );
 };

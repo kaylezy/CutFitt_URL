@@ -53,25 +53,27 @@ export default function Dashboard() {
 
   return (
     <>
-      <div className="bg-purple-50 min-h-screen text-gray-700 px-4 py-4 sm:px-20 sm:py-24 pt-24">
-        <h1 className="font-bold text-2xl mb-10">Dashboard</h1>
-        <main className="font-bold text-2xl mb-10">
+      <div className="bg-purple-50 md:flex  min-h-screen text-gray-700 px-4 py-4 sm:px-20 sm:py-24 pt-24">
+        <main className="font-bold flex flex-col text-2xl mb-10 md:mr-20 md:border-r rounded-lg border-purple-500 md:pr-4">
+          <h1 className="font-bold text-2xl mb-10">Dashboard</h1>
           <h2 className="mb-6">Welcome onboard, {userName}</h2>
-          <Link
-            href={"/pages/analytics"}
-            className=" hover:bg-purple-700 hover:text-gray-200 hover:rounded-lg hover:p-2"
-          >
+          <Link href={"/pages/analytics"} className=" mb-10">
             Analytics
           </Link>
+          <button
+            className="bg-purple-700 w-1/2 text-white rounded-lg p-2 text-sm shadow-md hover:bg-gradient-to-b from-purple-300 to-purple-900 hover:shadow-lg transition-all disabled:to-purple-400 disabled:from-purple-400"
+            onClick={handleSignOut}
+          >
+            Sign out
+          </button>
+          <div className="hidden relative lg:flex h-full items-center justify-center ">
+            <div className="w-20 h-20 bg-gradient-to-tr from-pink-400 to-purple-500 rounded-full animate-bounce" />
+            <div className="w-full h-1/2 absolute bottom-0 bg-white/10 backdrop-blur-lg" />
+          </div>
         </main>
-        <button
-          className="bg-purple-800 text-white rounded-lg p-2 text-sm shadow-md hover:bg-gradient-to-b from-purple-300 to-purple-900 hover:shadow-lg transition-all disabled:to-purple-400 disabled:from-purple-400"
-          onClick={handleSignOut}
-        >
-          Sign out
-        </button>
-
-        <UrlShortener />
+        <div className="w-full md:p-10 border border-purple-500 rounded-lg">
+          <UrlShortener />
+        </div>
       </div>
     </>
   );

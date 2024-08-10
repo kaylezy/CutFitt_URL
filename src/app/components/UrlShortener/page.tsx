@@ -11,7 +11,7 @@ import {
   PiMagicWandLight,
   PiQrCodeFill,
 } from "react-icons/pi";
-// import Dropdown from "../dropdown/page";
+import Dropdown from "../../pages/dropdown/dropdown";
 import {
   FaTwitter,
   FaLinkedin,
@@ -25,8 +25,8 @@ import {
   IoIosCopy,
   IoMdCheckmarkCircle,
 } from "react-icons/io";
-// import { TfiSharethis } from "react-icons/tfi";
-// import { FaS } from "react-icons/fa6";
+import { TfiSharethis } from "react-icons/tfi";
+import { FaS } from "react-icons/fa6";
 
 const UrlShortener = () => {
   const [originalUrl, setOriginalUrl] = useState("");
@@ -300,14 +300,14 @@ const UrlShortener = () => {
                 <p className="hidden md:block">QR</p>
               </button>
 
-              {/* <Dropdown
+              <Dropdown
                 icons={<TfiSharethis />}
                 label="Share"
                 socials={socialItems.map((item) => ({
                   ...item,
                   url: item.url + encodeURIComponent(shortUrl),
                 }))}
-              /> */}
+              />
 
               <button
                 type="button"
