@@ -37,6 +37,13 @@ const Feature = () => {
                 creation, management and usage tracking with advance analytics
                 for all of these is second to none.
               </p>
+              <div>
+                <button className="bg-purple-500 text-white px-4 py-2 mt-4 rounded">
+                  Learn More
+                </button>
+              </div>
+              <div>
+              </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-4">
@@ -100,7 +107,7 @@ const Feature = () => {
                       </div>
                     </div>
                     <div className=" first:ml-0 ml-0 md:ml-[72px]">
-                      <div className="text-[32px] font-semibold">50M</div>
+                      <div className="text-[32px] font-semibold">10M</div>
                       <div className="font-medium max-w-[14ch]">
                         Links &amp; QR codes created
                       </div>

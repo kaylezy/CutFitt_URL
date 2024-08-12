@@ -8,7 +8,7 @@ import { auth, firestore } from "../../firebase/firebase";
 import type { User } from "firebase/auth";
 import { doc, getDoc } from "firebase/firestore";
 import Link from "next/link";
-import Analytics from "../../pages/analytics/analytics";
+import Profile from "../../pages/profile/profile";
 
 export default function Dashboard() {
   const [user, setUser] = useState<User | null>(null);
@@ -57,8 +57,8 @@ export default function Dashboard() {
         <main className="font-bold flex flex-col text-2xl mb-10 md:mr-20 md:border-r rounded-lg border-purple-500 md:pr-4">
           <h1 className="font-bold text-2xl mb-10">Dashboard</h1>
           <h2 className="mb-6">Welcome onboard, {userName}</h2>
-          <Link href={"/pages/profile"} className="mb-10">
-            Profile
+          <Link href={"/components/dashboard"} className="mb-10">
+            Url Shortener
           </Link>
           <Link href={"/pages/analytics"} className=" mb-10">
             Analytics
@@ -78,7 +78,7 @@ export default function Dashboard() {
           </div>
         </main>
         <div className="w-full md:p-10 border border-purple-500 rounded-lg">
-          <Analytics />
+          <Profile />
         </div>
       </div>
     </>

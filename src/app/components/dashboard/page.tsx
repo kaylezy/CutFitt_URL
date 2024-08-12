@@ -10,6 +10,7 @@ import { doc, getDoc } from "firebase/firestore";
 import UrlShortener from "../UrlShortener/page";
 import Link from "next/link";
 
+
 export default function Dashboard() {
   const [user, setUser] = useState<User | null>(null);
   const router = useRouter();
@@ -57,8 +58,14 @@ export default function Dashboard() {
         <main className="font-bold flex flex-col text-2xl mb-10 md:mr-20 md:border-r rounded-lg border-purple-500 md:pr-4">
           <h1 className="font-bold text-2xl mb-10">Dashboard</h1>
           <h2 className="mb-6">Welcome onboard, {userName}</h2>
+          <Link href={"/pages/profile"} className="mb-10">
+            Profile
+          </Link>
           <Link href={"/pages/analytics"} className=" mb-10">
             Analytics
+          </Link>
+          <Link href={"/pages/content"} className="mb-10">
+            Create Content
           </Link>
           <button
             className="bg-purple-700 w-1/2 text-white rounded-lg p-2 text-sm shadow-md hover:bg-gradient-to-b from-purple-300 to-purple-900 hover:shadow-lg transition-all disabled:to-purple-400 disabled:from-purple-400"

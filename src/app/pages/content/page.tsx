@@ -8,7 +8,7 @@ import { auth, firestore } from "../../firebase/firebase";
 import type { User } from "firebase/auth";
 import { doc, getDoc } from "firebase/firestore";
 import Link from "next/link";
-import Analytics from "../../pages/analytics/analytics";
+import Content from "../../pages/content/content";
 
 export default function Dashboard() {
   const [user, setUser] = useState<User | null>(null);
@@ -78,7 +78,7 @@ export default function Dashboard() {
           </div>
         </main>
         <div className="w-full md:p-10 border border-purple-500 rounded-lg">
-          <Analytics />
+          <Content />
         </div>
       </div>
     </>
