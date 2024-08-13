@@ -63,7 +63,7 @@ const Analytics = () => {
 
   return (
     <>
-      <div className="bg-purple-50  text-gray-700 px-4 py-4 sm:px-20  pt-24">
+      <div className="bg-purple-50  text-gray-700 px-4 py-4 sm:px-20  pt-16">
         <h2 className="font-bold text-2xl mb-6">Welcome onboard, {userName}</h2>
         <h2 className="font-bold text-2xl mb-6">User Analytics Dashboard</h2>
         <Link

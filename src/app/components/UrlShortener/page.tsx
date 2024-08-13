@@ -26,7 +26,6 @@ import {
   IoMdCheckmarkCircle,
 } from "react-icons/io";
 import { TfiSharethis } from "react-icons/tfi";
-import { FaS } from "react-icons/fa6";
 
 const UrlShortener = () => {
   const [originalUrl, setOriginalUrl] = useState("");
@@ -294,7 +293,7 @@ const UrlShortener = () => {
               <button
                 type="button"
                 onClick={() => setShowQrCode(!showQrCode)}
-                className=" text-purple-900 font-bold text-2xl py-2 px-4 rounded-xl inline-flex items-center gap-2"
+                className=" text-purple-900 font-bold text-lg py-2 px-4 rounded-xl inline-flex items-center gap-2"
               >
                 <PiQrCodeFill />
                 <p className="hidden md:block">QR</p>
@@ -307,12 +306,13 @@ const UrlShortener = () => {
                   ...item,
                   url: item.url + encodeURIComponent(shortUrl),
                 }))}
+                
               />
 
               <button
                 type="button"
                 onClick={handleCopy}
-                className=" text-purple-900 font-bold text-2xl py-2 px-4 rounded-xl inline-flex items-center gap-2"
+                className=" text-purple-900 font-bold text-lg py-2 px-4 rounded-xl inline-flex items-center gap-2"
               >
                 <IoIosCopy />
                 <p className="hidden md:block">Copy</p>

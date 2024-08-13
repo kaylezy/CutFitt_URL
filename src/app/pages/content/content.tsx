@@ -13,7 +13,7 @@ const ContentPage = () => {
 
   return (
     <div className="max-w-3xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-4">Create Content with Markdown</h1>
+      <h1 className="text-2xl font-bold mb-4">Create content here</h1>
 
       <MarkdownEditor value={markdownContent} onChange={setMarkdownContent} />
 

@@ -13,6 +13,7 @@ import Link from "next/link";
 import { googleAuthProvider } from "../../firebase/firebase";
 import { MdEmail } from "react-icons/md";
 import { RiLockPasswordFill } from "react-icons/ri";
+import Image from "next/image";
 
 export default function Signin() {
   const [email, setEmail] = useState("");

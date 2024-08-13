@@ -29,20 +29,20 @@ const Feature = () => {
                   height={50}
                 />
               </div>
-              <h2 className="text-xl font-bold mb-2 sm:mt-4">CutFitt-URL</h2>
-              <p className="text-gray-600 text-justify">
-                CutFitt-URL is the hub of everything that has to do with your
-                link management. We shorten your URLs, allow you creating custom
-                ones for your personal, business, event usage. Our swift QR code
-                creation, management and usage tracking with advance analytics
-                for all of these is second to none.
-              </p>
-              <div>
-                <button className="bg-purple-500 text-white px-4 py-2 mt-4 rounded">
-                  Learn More
-                </button>
-              </div>
-              <div>
+              <div className="p-4">
+                <h2 className="text-xl font-bold mb-2 sm:mt-4">CutFitt-URL</h2>
+                <p className="text-gray-600 text-justify">
+                  CutFitt-URL is the hub of everything that has to do with your
+                  link management. We shorten your URLs, allow you creating
+                  custom ones for your personal, business, event usage. Our
+                  swift QR code creation, management and usage tracking with
+                  advance analytics for all of these is second to none.
+                </p>
+                <div>
+                  <button className="bg-purple-700 text-white px-4 py-2 mt-4 rounded-lg">
+                    Learn More
+                  </button>
+                </div>
               </div>
             </div>
 

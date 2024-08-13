@@ -45,6 +45,7 @@ const Profile = () => {
       });
 
       const userRef = doc(firestore, "users", auth.currentUser.uid);
+
       await updateDoc(userRef, {
         username,
         appSetting,
@@ -72,6 +73,7 @@ const Profile = () => {
           value={username}
           onChange={(e) => setUsername(e.target.value)}
           className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600"
+          title="Username"
         />
       </div>
 
@@ -85,6 +87,7 @@ const Profile = () => {
             checked={appSetting}
             onChange={(e) => setAppSetting(e.target.checked)}
             className="w-4 h-4 text-purple-600 border-gray-300 rounded focus:ring-purple-500"
+            title="App Setting"
           />
           <span className="ml-2 text-gray-700">Enable Feature X</span>
         </div>
