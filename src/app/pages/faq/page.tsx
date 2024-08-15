@@ -44,7 +44,7 @@ const faqs: FAQ[] = [
       "Absolutely! Personalization, flexibility, and control are what CutFit-URL is all about. With each of our paid plans, you can register or connect at least one top-level domain (your-domain.com) or subdomains (sub.your-domain.com) that you already own to create your branded short links using CutFit-URL.",
   },
   {
-    question: "Do I have to install Rebrandly on my website?",
+    question: "Do I have to install CutFitt-Url on my website?",
     answer:
       "No. CutFit-URL is a web-based service requiring no software to install or code to write. After subscribing, you will be ready to start branding and shortening links right away. No tech skills are required!",
   },
@@ -69,7 +69,10 @@ const FAQPage = () => {
 
   return (
     <>
-      <div id="faq" className="container mx-auto p-4 sm:w-2/4 text-center mb-10">
+      <div
+        id="faq"
+        className="container mx-auto p-4 sm:w-2/4 text-center mb-10"
+      >
         <h1 className="text-2xl font-bold mb-4 text-gray-700">
           Frequently Asked Questions
         </h1>
