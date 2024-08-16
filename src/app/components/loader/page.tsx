@@ -1,7 +1,7 @@
 "use client";
-// src/components/Loader.tsx
+
 import React from "react";
-import Image from "next/Image";
+import Image from "next/image";
 
 const Loader: React.FC = () => {
   return (

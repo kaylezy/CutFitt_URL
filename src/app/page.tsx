@@ -38,7 +38,8 @@ import Footer from "./components/footer/page";
 import Loader from "./components/loader/page";
 import FAQ from "./pages/faq/page";
 
-const MyApp: React.FC<AppProps> = () => {
+
+export default function Home () {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -56,7 +57,7 @@ const MyApp: React.FC<AppProps> = () => {
 
   return (
     <main className="overflow-hidden flex min-h-screen flex-col bg-purple-50">
-      
+            
            {/* hero component */}
            <Hero />
     
@@ -73,4 +74,4 @@ const MyApp: React.FC<AppProps> = () => {
 )
 };
 
-export default MyApp;
+
